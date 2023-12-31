@@ -1,0 +1,56 @@
+.table-view .column-header,
+.table-view .column-header-background .filler {
+    -fx-column-halignment: 5px;
+    -fx-background-color: #68cde9  ;
+    -fx-background-border-width: 2px;
+    -fx-border-color: #68cde9  ;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-opacity: 1;
+    -fx-padding: 0 0 5px 0;
+    -fx-text-fill: #f6fef6;
+    -fx-font-family: "Times New Roman";
+}
+.table-view .cell{
+    -fx-cell-size: 30;
+    -fx-cell-radius:2px;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-background-color: #f6fef6;
+    -fx-border-color: #3bbee3;
+    -fx-font-size: 15px;
+    -fx-border-width: 0.1px;
+    -fx-text-fill: black;
+}
+.table-view .cell:hover{
+    -fx-background-color: #3bbee3;
+    -fx-text-fill: black;
+}
+.table-view{
+    -fx-opacity:0.8;
+    -fx-background-color:#f6fef6 ;
+    -fx-text-fill: white;
+    -fx-border-radius: 10;
+}
+#lbl{
+    -fx-font-size: 24px;
+    -fx-font-family: Algerian;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+}
+#pane {
+    -fx-background-image: url("bm.jpeg");
+    -fx-border-image-repeat: repeat;
+    -fx-border-style: dashed;
+    -fx-border-width: 2px;
+    -fx-background-repeat: stretch;
+    -fx-background-size: 1000 680;
+    -fx-background-position: center center;
+    -fx-background-color: white;
+}
+.txt{
+    -fx-background-color: darkblue;
+    -fx-text-fill: white;
+    -fx-min-height: 30px;
+    -fx-min-width: 80;
+}
